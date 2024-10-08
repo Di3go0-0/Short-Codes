@@ -69,12 +69,13 @@
 - `ZQ` → Salir sin guardar.
 
 ### Navegar
-- `:sp` → Dividir la pantalla Horizontalmente
-- `:vsp` → Dividir la pantalla Verticalmente
-- `ctrl + w + h` → Ir a la ventana de la izquierda 
-- `ctrl + w + j` → Ir a la ventana de la abajo 
-- `ctrl + w + k` → Ir a la ventana de la arriba 
-- `ctrl + w + l` → Ir a la ventana de la derecha 
+- :sp → Dividir la pantalla Horizontalmente
+- :vsp → Dividir la pantalla Verticalmente
+- ctrl + w + h → Ir a la ventana de la izquierda 
+- ctrl + w + j → Ir a la ventana de la abajo 
+- ctrl + w + k → Ir a la ventana de la arriba 
+- ctrl + w + l → Ir a la ventana de la abajo 
+
 
 ### Otros comandos útiles
 
