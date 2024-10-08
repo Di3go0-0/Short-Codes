@@ -9,6 +9,12 @@
 - `e` → Ir al final de la palabra actual.
 - `gg` → Ir al inicio del archivo.
 - `G` → Ir al final del archivo.
+- `0` → Ir al inicio de la línea.
+- `$` → Ir al final de la línea.
+- `Ctrl + u` → Subir media pantalla.
+- `Ctrl + d` → Bajar media pantalla.
+- `Ctrl + b` → Subir una pantalla completa.
+- `Ctrl + f` → Bajar una pantalla completa.
 
 ### Edición de texto
 - `i` → Entrar en modo de inserción antes del cursor.
@@ -26,67 +32,84 @@
 - `Ctrl + r` → Rehacer.
 - `v` → Selección visual (caracteres).
 - `V` → Selección visual (líneas).
+- `Ctrl + v` → Selección visual en bloque.
+- `c` + `w` → Cambiar la palabra desde el cursor.
+- `c` + `c` → Cambiar la línea completa.
+- `r` + `[caracter]` → Reemplazar el caracter bajo el cursor.
+- `s` → Eliminar el caracter bajo el cursor e insertar.
+- `x` → Eliminar el caracter bajo el cursor.
+- `X` → Eliminar el caracter antes del cursor.
+- `J` → Unir la línea siguiente a la actual.
 
 ### Búsqueda y reemplazo
 - `/texto` → Buscar `texto` en el archivo.
 - `n` → Ir a la siguiente coincidencia.
 - `N` → Ir a la coincidencia anterior.
 - `:%s/viejo/nuevo/g` → Reemplazar todas las ocurrencias de "viejo" por "nuevo".
+- `*` → Buscar la palabra bajo el cursor hacia adelante.
+- `#` → Buscar la palabra bajo el cursor hacia atrás.
 
 ### Macros
 - `q` + `[tecla]` → Comenzar a grabar macro.
 - `@` + `[tecla]` → Ejecutar la macro grabada.
+- `@@` → Repetir la última macro ejecutada.
 
 ### Guardado y salida
 - `:w` → Guardar archivo.
 - `:q` → Cerrar archivo.
 - `:wq` → Guardar y cerrar archivo.
 - `:q!` → Salir sin guardar.
+- `:x` → Guardar y cerrar archivo (igual que `:wq`).
+- `ZZ` → Guardar y cerrar archivo.
+- `ZQ` → Salir sin guardar.
 
----
+### Otros comandos útiles
+- `.` → Repetir la última acción.
+- `~` → Cambiar el caso del caracter bajo el cursor.
+- `Ctrl + o` → Volver a la posición anterior.
+- `Ctrl + i` → Ir a la siguiente posición.
+- `:noh` → Limpiar el resaltado de búsqueda.
 
-## Atajos de Ubuntu
+## Modo Visual
 
-### Ventanas y navegación
-- `Alt + Tab` → Cambiar entre aplicaciones abiertas.
-- `Alt + F4` → Cerrar la ventana activa.
-- `Ctrl + Alt + T` → Abrir una terminal.
-- `Ctrl + Shift + T` → Abrir una nueva pestaña en la terminal.
-- `Ctrl + D` → Cerrar pestaña en la terminal.
-- `Ctrl + Alt + L` → Bloquear la pantalla.
+- `v` → Entrar en modo visual de caracteres.
+- `V` → Entrar en modo visual de líneas.
+- `Ctrl + v` → Entrar en modo visual de bloque.
+- `aw` → Seleccionar una palabra.
+- `iw` → Seleccionar palabra interna.
+- `ab` → Seleccionar un bloque con ().
+- `ib` → Seleccionar bloque interno con ().
+- `aB` → Seleccionar un bloque con {}.
+- `iB` → Seleccionar bloque interno con {}.
+- `at` → Seleccionar un bloque con etiquetas <>.
+- `it` → Seleccionar bloque interno con etiquetas <>.
+- `o` → Moverse al otro extremo del área marcada.
+- `O` → Moverse a la otra esquina del bloque.
+- `y` → Copiar texto seleccionado.
+- `d` → Eliminar texto marcado.
+- `u` → Cambiar texto seleccionado a minúsculas.
+- `U` → Cambiar texto seleccionado a mayúsculas.
+- `af` → Seleccionar bloques de texto cada vez más grandes.
+- `gb` → Añadir un cursor adicional.
+- `{movimiento}{operador}` → En modo visual, primero especificas el movimiento para seleccionar texto y luego aplicas el operador.
 
-### Escritorios y ventanas
-- `Super (tecla de Windows) + S` → Ver todos los escritorios virtuales.
-- `Super + Flecha arriba` → Maximizar ventana.
-- `Super + Flecha abajo` → Restaurar o minimizar ventana.
-- `Super + Flechas derecha/izquierda` → Anclar ventana a la mitad de la pantalla.
-- `Super + D` → Mostrar el escritorio.
+## Vim Surround
 
-### Archivos y carpetas
-- `Ctrl + N` → Nueva ventana del explorador de archivos.
-- `Ctrl + L` → Ir a la barra de direcciones.
-- `Ctrl + H` → Mostrar archivos ocultos.
-- `Alt + Enter` → Ver propiedades del archivo.
+- `ds{existente}` → Eliminar el entorno {existente}.
+- `cs{existente}{deseado}` → Cambiar el entorno {existente} a {deseado}.
+- `ys{movimiento}{deseado}` → Añadir el entorno {deseado} al texto definido por {movimiento}.
+- `S{deseado}` → Rodear la selección cuando estás en modo visual.
 
-### Edición general
-- `Ctrl + C` → Copiar.
-- `Ctrl + V` → Pegar.
-- `Ctrl + X` → Cortar.
-- `Ctrl + Z` → Deshacer.
-- `Ctrl + Shift + Z` → Rehacer.
-- `Ctrl + A` → Seleccionar todo.
+## Atajos de teclado de VSCode
 
-### Navegadores
-- `Ctrl + T` → Nueva pestaña.
-- `Ctrl + W` → Cerrar pestaña.
-- `Ctrl + Tab` → Navegar entre pestañas.
-- `Ctrl + Shift + Tab` → Navegar entre pestañas en sentido inverso.
-
-### Capturas de pantalla
-- `PrtSc` → Capturar toda la pantalla.
-- `Shift + PrtSc` → Capturar una región seleccionada.
-- `Alt + PrtSc` → Capturar la ventana activa.
-
----
-
-¡Utiliza estos atajos para mejorar tu productividad en Ubuntu y Vim en VSCode!
+- `Ctrl + p` → Abrir paleta de comandos.
+- `>` → Listar todos los comandos.
+- `@` → Listar todos los símbolos locales.
+- `Ctrl + Shift + .` → Abrir lista de símbolos locales.
+- `#` → Listar todos los símbolos globales.
+- `Ctrl + Shift + ñ` → Crear nuevo terminal.
+- `Ctrl + ñ` → Alternar terminal.
+- `Ctrl + PageDown` → Enfocar el siguiente grupo de terminales.
+- `Ctrl + PageUp` → Enfocar el grupo de terminales anterior.
+- `Alt + Flecha Abajo` → Enfocar el siguiente terminal en el grupo.
+- `Alt + Flecha Arriba` → Enfocar el terminal anterior en el grupo.
