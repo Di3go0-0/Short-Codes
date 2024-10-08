@@ -1,8 +1,9 @@
-# Atajos útiles en Vim (VSCode) y Ubuntu
+# Atajos útiles en Vim (VSCode)
 
 ## Atajos de Vim en VSCode
 
 ### Movimientos básicos
+
 - `h`, `j`, `k`, `l` → Moverse a la izquierda, abajo, arriba, derecha.
 - `w` → Avanzar al inicio de la siguiente palabra.
 - `b` → Retroceder al inicio de la palabra anterior.
@@ -17,6 +18,7 @@
 - `Ctrl + f` → Bajar una pantalla completa.
 
 ### Edición de texto
+
 - `i` → Entrar en modo de inserción antes del cursor.
 - `I` → Insertar al inicio de la línea.
 - `a` → Entrar en modo de inserción después del cursor.
@@ -42,6 +44,7 @@
 - `J` → Unir la línea siguiente a la actual.
 
 ### Búsqueda y reemplazo
+
 - `/texto` → Buscar `texto` en el archivo.
 - `n` → Ir a la siguiente coincidencia.
 - `N` → Ir a la coincidencia anterior.
@@ -50,11 +53,13 @@
 - `#` → Buscar la palabra bajo el cursor hacia atrás.
 
 ### Macros
+
 - `q` + `[tecla]` → Comenzar a grabar macro.
 - `@` + `[tecla]` → Ejecutar la macro grabada.
 - `@@` → Repetir la última macro ejecutada.
 
 ### Guardado y salida
+
 - `:w` → Guardar archivo.
 - `:q` → Cerrar archivo.
 - `:wq` → Guardar y cerrar archivo.
@@ -63,7 +68,16 @@
 - `ZZ` → Guardar y cerrar archivo.
 - `ZQ` → Salir sin guardar.
 
+### Navegar
+- `:sp` → Dividir la pantalla Horizontalmente
+- `:vsp` → Dividir la pantalla Verticalmente
+- `ctrl + w + h` → Ir a la ventana de la izquierda 
+- `ctrl + w + j` → Ir a la ventana de la abajo 
+- `ctrl + w + k` → Ir a la ventana de la arriba 
+- `ctrl + w + l` → Ir a la ventana de la derecha 
+
 ### Otros comandos útiles
+
 - `.` → Repetir la última acción.
 - `~` → Cambiar el caso del caracter bajo el cursor.
 - `Ctrl + o` → Volver a la posición anterior.
