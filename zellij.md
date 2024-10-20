@@ -13,3 +13,13 @@
 - `ctrl + p + space` → Alternar modo de visualización entre paneles
 - `ctrl + p + Enter` → Cambiar al modo normal de la terminal
 - `ctrl + p + g` → Ir a la barra de acciones
+
+## Atajos de paneles
+
+- `Alt  + Right` → Moverse al panel derecho
+- `Alt  + Left` → Moverse al panel izquierdo
+- `Alt  + Up` → Moverse al panel superior
+- `Alt  + Down` → Moverse al panel inferior
+- `ctrl + t + n` → 
+
+
