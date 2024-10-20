@@ -49,7 +49,10 @@
 - `n` → Ir a la siguiente coincidencia.
 - `N` → Ir a la coincidencia anterior.
 - `:%s/viejo/nuevo/g` → Reemplazar todas las ocurrencias de "viejo" por "nuevo".
-- `*` → Buscar la palabra bajo el cursor hacia adelante.
+- `:%s/viejo/nuevo/c` → Obliga a Confirmar cada una de las sustituciones.
+- `:%s/viejo/nuevo/i` No distingue entre mayúsculas y minúsculas→ .
+- `:%s/viejo/nuevo/g` → distingue entre mayúsculas y minúsculas.
+-`*` → Buscar la palabra bajo el cursor hacia adelante.
 - `#` → Buscar la palabra bajo el cursor hacia atrás.
 
 ### Macros
