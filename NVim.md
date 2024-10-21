@@ -112,6 +112,10 @@
 - `af` → Seleccionar bloques de texto cada vez más grandes.
 - `gb` → Añadir un cursor adicional.
 - `{movimiento}{operador}` → En modo visual, primero especificas el movimiento para seleccionar texto y luego aplicas el operador.
+> [!TIP]
+> Si Seleccionas varias lineas con `Ctrl + v` 
+> y luego presionas `Shift + i` y luego escribes el caracter de comentar una linea 
+> seguido de `esc` vas a comentar todas las lineas.
 
 ## Vim Surround
 
