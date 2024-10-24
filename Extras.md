@@ -10,3 +10,8 @@
 - `Ctrl + h` - Moverse a la ventana de la derecha
 - `Ctrl + k` - Moverse a la ventana de arriba
 - `Ctrl + l` - Moverse a la ventana de abajo
+
+## CMP
+
+> [!TIP]
+> `<C-Space>` - Autocompletar
