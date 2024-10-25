@@ -2,7 +2,10 @@
 
 ## Navegar entre codigo
 
-> [!TIP] > `<leader>gd` - Ir a la definición de la variable, funcion o metodo
+- > [!TIP]
+  > `<leader>gd` Ir a la definición de la variable, funcion o metodo
+
+- `<leader>gr` Ir a las referencias donde esta siendo usado
 
 ## Navegación entre ventanas
 
@@ -13,5 +16,4 @@
 
 ## CMP
 
-> [!TIP]
-> `<C-Space>` - Autocompletar
+> [!TIP] > `<C-Space>` - Autocompletar
