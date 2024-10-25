@@ -1,19 +1,21 @@
-# Algunos atajos de teclados extras
+# Atajos de Teclado Extras
 
-## Navegar entre codigo
+## Navegación en el Código
 
-- > [!TIP]
-  > `<leader>gd` Ir a la definición de la variable, funcion o metodo
+> [!TIP]
+>
+> - `<leader>gd` - Ir a la definición de una variable, función o método.
+> - `<leader>gr` - Ver las referencias donde está siendo utilizado.
 
-- `<leader>gr` Ir a las referencias donde esta siendo usado
+## Navegación entre Ventanas
 
-## Navegación entre ventanas
+- `Ctrl + h` - Moverse a la ventana de la izquierda.
+- `Ctrl + l` - Moverse a la ventana de la derecha.
+- `Ctrl + k` - Moverse a la ventana superior.
+- `Ctrl + j` - Moverse a la ventana inferior.
 
-- `Ctrl + j` - Moverse a la ventana de la izquierda
-- `Ctrl + h` - Moverse a la ventana de la derecha
-- `Ctrl + k` - Moverse a la ventana de arriba
-- `Ctrl + l` - Moverse a la ventana de abajo
+## CMP (Completion Plugin)
 
-## CMP
-
-> [!TIP] > `<C-Space>` - Autocompletar
+> [!TIP]
+>
+> - `<C-Space>` - Activar el menú de autocompletado.
