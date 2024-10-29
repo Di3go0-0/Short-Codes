@@ -28,3 +28,9 @@
 > [!TIP]
 >
 > - `<C-Space>` - Activar el menú de autocompletado.
+
+## Atajos Utiles
+
+> [!TIP]
+>
+> - `<leader> ca` --> Code action: sirve para verias cosas, entre ellas `Colocar el import de algun modulo que se use pero no se ha llamado`
