@@ -16,6 +16,13 @@
 > - `Ctrl + l` - Moverse a la línea de la derecha.
 > - `Ctrl + i` - Moverse a la línea de la arriba.
 
+## Tips En el Código
+
+### Identar codigo
+
+- `Shift + .` - Identar el código seleccionado hacia la derecha.
+- `Shift + ,` - Identar el código seleccionado hacia la izquierda.
+
 ## Navegación entre Ventanas
 
 - `Ctrl + h` - Moverse a la ventana de la izquierda.
