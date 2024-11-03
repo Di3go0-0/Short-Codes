@@ -41,3 +41,9 @@
 > [!TIP]
 >
 > - `<leader> ca` --> Code action: sirve para verias cosas, entre ellas `Colocar el import de algun modulo que se use pero no se ha llamado`
+
+## Reemplazo de texto en el código
+
+> [!TIP]
+>
+> - seleccionar un texto y luego `shift + *` eso marcara todas las coincidencias, con `n` te mueves a la siguiente y con `shift + n` te mueves a la anterior. la puedes modificar dar `enter` y luego `n | shift + n` para seguir navegando y modificando
