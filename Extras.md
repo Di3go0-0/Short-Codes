@@ -1,5 +1,9 @@
 # Atajos de Teclado Extras
 
+> [!IMPORTANT]
+>
+> `Ctrl+k` --> `Ctrl+s` - Para safe a file
+
 ## Navegación en el Código
 
 > [!TIP]
