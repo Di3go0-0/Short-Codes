@@ -1,14 +1,13 @@
 # Atajos Zellij
 
+## Atajos de Ventana
 
-## Atajos de Ventana  
+### `alt + t` → Ventanas
 
-### `ctrl + t` → Ventanas
-
-- `ctrl + t + n` → Nueva Ventana
-- `ctrl + t + r` → Renombrar Ventana
-- `ctrl + t + x` → Cerrar Ventana
-- `ctrl + t + s` → Sync
+- `alt + t + n` → Nueva Ventana
+- `alt + t + r` → Renombrar Ventana
+- `alt + t + x` → Cerrar Ventana
+- `alt + t + s` → Sync
 
 - `Alt  + Right` → Moverse al panel derecho
 - `Alt  + Left` → Moverse al panel izquierdo
@@ -17,39 +16,39 @@
 
 ## Atajos Paneles
 
-### `ctrl + p` → Panels
+### `alt + p` → Panels
 
-- `ctrl + p + n` → Nuevo panel
-- `ctrl + p + Left Down Up Right` → Navegar entre panels
-- `ctrl + p + x` → Cerrar panel actual
-- `ctrl + p + c` -> Renombrar Panel o panel 
-- `ctrl + p + n` → Dividir terminal Verticalmente
-- `ctrl + p + d` → Dividir Terminal horizontalmente
-- `ctrl + p + f` → Toggle Fullscreen
-- `ctrl + p + e` → Cambiar de Posicion
+- `alt + p + n` → Nuevo panel
+- `alt + p + Left Down Up Right` → Navegar entre panels
+- `alt + p + x` → Cerrar panel actual
+- `alt + p + c` -> Renombrar Panel o panel
+- `alt + p + n` → Dividir terminal Verticalmente
+- `alt + p + d` → Dividir Terminal horizontalmente
+- `alt + p + f` → Toggle Fullscreen
+- `alt + p + e` → Cambiar de Posicion
 
-- `ctrl + p + w` → panel Flotante (Abrir / Cerrar)
-- `ctrl + p + n` -> Nueva panel flotante If(Estas en un Panel Flotante)
+- `alt + p + w` → panel Flotante (Abrir / Cerrar)
+- `alt + p + n` -> Nueva panel flotante If(Estas en un Panel Flotante)
 
-### `ctrl + p` → Panels
+### `alt + p` → Panels
 
-### `ctrl + g` -> Bloquear todo
+### `alt + g` -> Bloquear todo
 
-### `ctrl + n` -> Resize un panels
+### `alt + n` -> Resize un panels
 
-### `ctrl + h` --> Cambiar de locacion Un panels
+### `alt + h` --> Cambiar de locacion Un panels
 
-### `ctrl + s` -> Search
+### `alt + s` -> Search
 
-- `ctrl + s + s` -> Busca en la terminal
-- `ctrl + s + Up/Down` -> Scrool
-- `ctrl + s + PgUp/PgDn` -> Scrool page 
-- `ctrl + s + d/u` -> ? 
-- `ctrl + s + e` -> Tomar todo lo que este en la terminal y llevarlo a un archivo en Vim/nano/etc
+- `alt + s + s` -> Busca en la terminal
+- `alt + s + Up/Down` -> Scrool
+- `alt + s + PgUp/PgDn` -> Scrool page
+- `alt + s + d/u` -> ?
+- `alt + s + e` -> Tomar todo lo que este en la terminal y llevarlo a un archivo en Vim/nano/etc
 
-### `ctrl + o` --> Session
+### `alt + o` --> Session
 
-- `ctrl + o + d` -> Cerrar Session actual 
-- `ctrl + o + w` -> Session Manager
+- `alt + o + d` -> Cerrar Session actual
+- `alt + o + w` -> Session Manager
 
-### `ctrl + q` --> Close all
+### `alt + q` --> Close all
