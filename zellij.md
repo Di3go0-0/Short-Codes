@@ -51,4 +51,10 @@
 - `alt + o + d` -> Cerrar Session actual
 - `alt + o + w` -> Session Manager
 
+> [!TIP]
+>
+> - `zellij list-sessions` -> Listar todas las sesiones
+> - `zellij attach <session name>` -> Entra a la sesiones
+> - `zellij attach` -> Entra a la ultima sesion
+
 ### `alt + q` --> Close all
