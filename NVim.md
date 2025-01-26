@@ -51,8 +51,7 @@
 - `:%s/viejo/nuevo/g` → Reemplazar todas las ocurrencias de "viejo" por "nuevo".
 - `:%s/viejo/nuevo/c` → Obliga a Confirmar cada una de las sustituciones.
 - `:%s/viejo/nuevo/i` No distingue entre mayúsculas y minúsculas→ .
-- `:%s/viejo/nuevo/g` → distingue entre mayúsculas y minúsculas.
--`*` → Buscar la palabra bajo el cursor hacia adelante.
+- `:%s/viejo/nuevo/g` → distingue entre mayúsculas y minúsculas. -`*` → Buscar la palabra bajo el cursor hacia adelante.
 - `#` → Buscar la palabra bajo el cursor hacia atrás.
 
 ### Macros
@@ -72,12 +71,13 @@
 - `ZQ` → Salir sin guardar.
 
 ### Navegar
+
 - `:sp` → Dividir la pantalla Horizontalmente
 - `:vsp` → Dividir la pantalla Verticalmente
-- `ctrl` + w + h → Ir a la ventana de la izquierda 
-- `ctrl` + w + j → Ir a la ventana de la abajo 
-- `ctrl` + w + k → Ir a la ventana de la arriba 
-- `ctrl` + w + l → Ir a la ventana de la abajo 
+- `ctrl` + w + h → Ir a la ventana de la izquierda
+- `ctrl` + w + j → Ir a la ventana de la abajo
+- `ctrl` + w + k → Ir a la ventana de la arriba
+- `ctrl` + w + l → Ir a la ventana de la abajo
 - `Shift + g` → Ir al final del archivo
 - `Shift + h` → Ir al siguiente archivo
 - `Shift + l` → Ir al archivo anterior
@@ -99,7 +99,7 @@
 - `iw` → Seleccionar palabra interna.
 - `ab` → Seleccionar un bloque con ().
 - `ib` → Seleccionar bloque interno con ().
-- `aB` → Seleccionar un bloque con {}.  
+- `aB` → Seleccionar un bloque con {}.
 - `iB` → Seleccionar bloque interno con {}.
 - `at` → Seleccionar un bloque con etiquetas <>.
 - `it` → Seleccionar bloque interno con etiquetas <>.
@@ -112,10 +112,15 @@
 - `af` → Seleccionar bloques de texto cada vez más grandes.
 - `gb` → Añadir un cursor adicional.
 - `{movimiento}{operador}` → En modo visual, primero especificas el movimiento para seleccionar texto y luego aplicas el operador.
-> [!TIP]
-> Si Seleccionas varias lineas con `Ctrl + v` 
-> y luego presionas `Shift + i` y luego escribes el caracter de comentar una linea 
-> seguido de `esc` vas a comentar todas las lineas.
+  > [!TIP]
+  > Si Seleccionas varias lineas con `Ctrl + v`
+  > y luego presionas `Shift + i` y luego escribes el caracter de comentar una linea
+  > seguido de `esc` vas a comentar todas las lineas.
+
+## Marcadores
+
+- `m` + `[letra]` → Crear un marcador en la línea actual.
+- `'` + `[letra]` → Moverse al marcador.
 
 ## Vim Surround
 
